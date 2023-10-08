@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+
+    <title>QRCode</title>
+
+</head>
+<body>
+<center>
+
+    <h1>QR Code Generatore</h1>
+
+    <br><br><br><br><br>
+
+    <div class="container">
+        <input type="text" placeholder="Enter Text or URL" id="Text">
+            <br><br>
+            <div class="img" id="img">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.youtube.com/watch?v=dQw4w9WgXcQ " id="QRPicture">
+            </div>
+            <br>
+        <button onclick="genQR()">Generate</button>
+    </div>
+
+    <br><br><br><br><br><br><br>
+
+<footer>
+<p class="copyr">Copyright &copy; - Gooey.</p>
+</footer>
+</center>
+<script src="app.js"></script>
+</body>
+</html>

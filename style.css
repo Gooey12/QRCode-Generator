@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest&display=swap');
+
+* {
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Onest', sans-serif;
+}
+
+body {
+    background-color: rgb(99, 122, 224);
+}
+
+button {
+    background-color: rgb(38, 109, 216);
+    width: 110px;
+    height: 40px;
+    border-style: solid;
+    border-color: rgb(1, 47, 100);
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: medium;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(21, 92, 199);
+    border-color: rgb(0, 22, 48);
+    transition: all 0.3s ease-in-out;
+}
+
+input {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    width: auto;
+    height: auto;
+}
+
+.copyr {
+    font-weight: bolder;
+}
