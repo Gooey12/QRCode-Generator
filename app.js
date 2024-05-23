@@ -3,7 +3,7 @@ let img = document.getElementById("img");
 let QRPicture = document.getElementById("QRPicture");
 
 function genQR() {
-    if (Text == '') {
+    if (Text.value == '') {
     return
     };
 
