@@ -3,8 +3,9 @@ let img = document.getElementById("img");
 let QRPicture = document.getElementById("QRPicture");
 
 function genQR() {
-    if (Text == '') 
-    return;
+    if (Text == '') {
+    return
+    };
 
     QRPicture.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + Text.value;
 
